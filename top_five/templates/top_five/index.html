@@ -1,9 +1,0 @@
-{% extends "top_five/base.html" %}
-{% block contents %}
-
-    <form class="form-inline md-form form-sm" action="{% url 'search_results' %}" method="get" accept-charset="utf-8">
-        <input class="form-control form-control-sm mr-3 w-25" name="query" type="text" placeholder="Search">
-        <button class="btn btn-info" type="submit">Go!</button>
-    </form>
-
-{% endblock %}

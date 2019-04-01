@@ -3,7 +3,7 @@ import requests
 
 from bs4 import BeautifulSoup
 from django.shortcuts import render
-from django.views.generic.list import ListView
+from django.views.generic.detail import DetailView
 
 from .models import Query
 from top_five.helpers.article import Article
@@ -33,24 +33,32 @@ def get_articles(search_query):
                 _url=doc.get('web_url'),
                 _lead=doc.get('lead_paragraph'),
                 _abstract=doc.get('abstract'),
-                _timestamp=doc.get('pub_date').split('T')[0]
+                _timestamp=doc.get('pub_date').split('T')[0],
+                _query=search_query
             )
             news_items.append(article)
         return news_items
 
 
 def index(request):
-    return render(request, "top_five/index.html")
+    queries = Query.objects.all()
+    return render(
+        request,
+        "top_five/base.html",
+        {
+            'queries': queries,
+        }
+    )
 
 
-class ArticleSearchListView(ListView):
+class ArticleSearchDetailView(DetailView):
+    model = Query
     template_name = 'top_five/search_results.html'
 
-    def get_queryset(self):
-        query_string = self.request.GET.get('query')
-        if query_string:
-            query = Query(title=query_string)
-            query.save()
-            articles = get_articles(query)
-            return articles
-
+    def get_context_data(self, **kwargs):
+        context = dict()
+        query = Query.objects.get(pk=self.kwargs.get('pk'))
+        if query:
+            context['articles'] = get_articles(query.title)
+            context['current_query'] = query.title
+            return context

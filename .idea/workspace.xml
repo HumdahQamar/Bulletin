@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c4b16e58-7e1b-4e5f-86fe-28b127b80732" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_five/helpers/article.py" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/helpers/article.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_five/templates/top_five/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/templates/top_five/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_five/templates/top_five/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/templates/top_five/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_five/templates/top_five/search_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/templates/top_five/search_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_five/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_five/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,28 +27,32 @@
     <session id="424466598">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="article" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="3" />
-          <entry key="py" value="12" />
+          <entry key="html" value="5" />
+          <entry key="md" value="1" />
+          <entry key="py" value="15" />
           <entry key="test" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="5" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,8 +60,9 @@
           <entry key="article" value="64" />
           <entry key="dummy" value="3" />
           <entry key="gitignore" value="12" />
-          <entry key="html" value="452" />
-          <entry key="py" value="1499" />
+          <entry key="html" value="868" />
+          <entry key="md" value="49" />
+          <entry key="py" value="1991" />
           <entry key="py@bulletin" value="78" />
           <entry key="test" value="174" />
         </counts>
@@ -58,9 +70,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="29" />
-          <entry key="HTML" value="452" />
+          <entry key="HTML" value="868" />
+          <entry key="Markdown" value="49" />
           <entry key="PLAIN_TEXT" value="238" />
-          <entry key="Python" value="1563" />
+          <entry key="Python" value="2055" />
         </counts>
       </usages-collector>
     </session>
@@ -70,56 +83,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="30">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top_five/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="159">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1554103273885" expanded="true" signature="312:1199" ph="..." />
-                <marker date="1554103273885" expanded="true" signature="1220:1225" ph="..." />
-                <marker date="1554103273885" expanded="true" signature="1220:1271" ph="..." />
-                <marker date="1554103273885" expanded="true" signature="1363:1368" ph="..." />
+                <element signature="e#1#12#0" expanded="true" />
+                <marker date="1554110351848" expanded="true" signature="365:1289" ph="..." />
+                <marker date="1554110351848" expanded="true" signature="1344:1349" ph="..." />
+                <marker date="1554110351848" expanded="true" signature="1344:1469" ph="..." />
+                <marker date="1554110351848" expanded="true" signature="1566:1573" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/top_five/helpers/article.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1554109464139" expanded="true" signature="14:19" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="216" selection-start-line="5" selection-start-column="216" selection-end-line="5" selection-end-column="216" />
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/bulletin/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/top_five/models.py">
+        <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -139,8 +162,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top_five/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,15 +219,16 @@
         <option value="$PROJECT_DIR$/top_five/test" />
         <option value="$USER_HOME$/Desktop/bs_test.py" />
         <option value="$PROJECT_DIR$/bulletin/urls.py" />
-        <option value="$PROJECT_DIR$/top_five/urls.py" />
-        <option value="$PROJECT_DIR$/top_five/templates/top_five/index.html" />
         <option value="$PROJECT_DIR$/top_five/helpers/article" />
-        <option value="$PROJECT_DIR$/top_five/helpers/article.py" />
-        <option value="$PROJECT_DIR$/top_five/templates/top_five/search_results.html" />
         <option value="$PROJECT_DIR$/top_five/models.py" />
         <option value="$PROJECT_DIR$/top_five/admin.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/top_five/templates/top_five/index.html" />
+        <option value="$PROJECT_DIR$/top_five/helpers/article.py" />
+        <option value="$PROJECT_DIR$/top_five/urls.py" />
         <option value="$PROJECT_DIR$/top_five/views.py" />
+        <option value="$PROJECT_DIR$/top_five/templates/top_five/search_results.html" />
         <option value="$PROJECT_DIR$/top_five/templates/top_five/base.html" />
       </list>
     </option>
@@ -212,7 +239,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="1920" />
     <option name="height" value="1014" />
@@ -232,6 +259,30 @@
             <path>
               <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
               <item name="bulletin" type="462c0819:PsiDirectoryNode" />
+              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
+              <item name="top_five" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
+              <item name="top_five" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
+              <item name="top_five" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
+              <item name="top_five" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="top_five" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -244,7 +295,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/bs_test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -327,10 +378,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1014" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.13500534" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.13660619" />
       <window_info id="Structure" order="1" sideWeight="0.50094163" side_tool="true" weight="0.13340448" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,7 +395,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32918552" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32918552" />
       <window_info anchor="bottom" id="manage.py@bulletin" order="13" weight="0.32918552" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -378,20 +429,20 @@
           <line>20</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/top_five/views.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html</url>
-          <line>9</line>
+          <line>7</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html</url>
-          <line>8</line>
+          <line>6</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/top_five/templates/top_five/base.html</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -464,16 +515,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/top_five/test" />
-    <entry file="file://$PROJECT_DIR$/bulletin/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Envs/posi_scan_django/lib/python3.6/site-packages/django/utils/functional.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -502,29 +543,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/top_five/helpers/article.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1554100033877" expanded="true" signature="14:19" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/top_five/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="28" column="119" selection-start-line="28" selection-start-column="119" selection-end-line="28" selection-end-column="119" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/top_five/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -533,13 +577,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/top_five/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -560,41 +597,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/bulletin/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_five/helpers/article.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1554109464139" expanded="true" signature="14:19" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_five/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_five/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+            <marker date="1554110351848" expanded="true" signature="365:1289" ph="..." />
+            <marker date="1554110351848" expanded="true" signature="1344:1349" ph="..." />
+            <marker date="1554110351848" expanded="true" signature="1344:1469" ph="..." />
+            <marker date="1554110351848" expanded="true" signature="1566:1573" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="30">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="216" selection-start-line="5" selection-start-column="216" selection-end-line="5" selection-end-column="216" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/top_five/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1554103273885" expanded="true" signature="312:1199" ph="..." />
-            <marker date="1554103273885" expanded="true" signature="1220:1225" ph="..." />
-            <marker date="1554103273885" expanded="true" signature="1220:1271" ph="..." />
-            <marker date="1554103273885" expanded="true" signature="1363:1368" ph="..." />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>

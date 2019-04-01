@@ -6,6 +6,20 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
-            {% block contents %}{% endblock %}
+        <h2>Bulletin - Top 5</h2>
+        {% block contents %}
+            <br>
+            {% if queries.all %}
+                <h3>Choose a Search Query..</h3>
+                <ul>
+                    {% for query in queries %}
+                        <li><a href="{%  url 'search_results' query.pk %}">{{ query.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <h3>No Search Queries to show at the moment.</h3>
+                <h4>Use the admin site to create new queries..</h4>
+            {% endif %}
+        {% endblock %}
     </body>
 </html>
