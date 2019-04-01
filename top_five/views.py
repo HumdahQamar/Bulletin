@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from django.shortcuts import render
 from django.views.generic.list import ListView
 
+from .models import Query
 from top_five.helpers.article import Article
 
 
@@ -61,9 +62,11 @@ class ArticleSearchListView(ListView):
 
     def get_queryset(self):
         # result = super(ArticleSearchListView).get_queryset()
-        query = self.request.GET.get('query')
+        query_string = self.request.GET.get('query')
         # Save query to db here
-        if query:
+        if query_string:
+            query = Query(title=query_string)
+            query.save()
             articles = get_articles(query)
             return articles
 
