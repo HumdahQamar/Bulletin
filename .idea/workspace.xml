@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4b16e58-7e1b-4e5f-86fe-28b127b80732" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top_five/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,30 +238,6 @@
               <item name="bulletin" type="462c0819:PsiDirectoryNode" />
               <item name="bulletin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
-              <item name="top_five" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
-              <item name="top_five" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
-              <item name="top_five" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bulletin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bulletin" type="462c0819:PsiDirectoryNode" />
-              <item name="top_five" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="top_five" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -358,7 +332,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.13500534" />
       <window_info id="Structure" order="1" sideWeight="0.50094163" side_tool="true" weight="0.13340448" />
@@ -374,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32918552" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32918552" />
       <window_info anchor="bottom" id="manage.py@bulletin" order="13" weight="0.32918552" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
