@@ -21,12 +21,13 @@ python manage.py runserver
 ```
 The default port for the application is ```8000```
 
+## Admin Site
 To create a super user, run
 ```shell
 python manage.py cratesuperuser
 ```
-## Admin Site
-In order to access the admin site, navigate to ```localhost:8000/admin```
+In order to access the admin site, navigate to ```localhost:8000/admin``` and enter the credentials for the super user.
+
 This is where queries can be searched, added, removed and updated
 
 ## Built with
