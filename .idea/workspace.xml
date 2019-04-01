@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4b16e58-7e1b-4e5f-86fe-28b127b80732" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/top_five/helpers/article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/top_five/templates/top_five/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/top_five/templates/top_five/search_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top_five/templates/top_five/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/templates/top_five/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top_five/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top_five/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/top_five/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="c4b16e58-7e1b-4e5f-86fe-28b127b80732" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +45,7 @@
           <entry key="article" value="64" />
           <entry key="dummy" value="3" />
           <entry key="gitignore" value="9" />
-          <entry key="html" value="399" />
+          <entry key="html" value="452" />
           <entry key="py" value="1227" />
           <entry key="py@bulletin" value="7" />
           <entry key="test" value="174" />
@@ -63,7 +54,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="7" />
-          <entry key="HTML" value="399" />
+          <entry key="HTML" value="452" />
           <entry key="PLAIN_TEXT" value="186" />
           <entry key="Python" value="1291" />
         </counts>
@@ -75,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -330,7 +321,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1014" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.13340448" />
       <window_info id="Structure" order="1" sideWeight="0.50094163" side_tool="true" weight="0.13340448" />
@@ -339,7 +329,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39932126" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -347,7 +337,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32918552" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32918552" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -392,12 +382,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
@@ -586,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/top_five/templates/top_five/search_results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
         </state>
       </provider>
     </entry>
